@@ -1,0 +1,7 @@
+getgenv().synd = {
+    juicewlrd999 = {
+        pred = 0.06,
+        offset = 0.09,
+        part = "Head", -- u can change it to "HumanoidRootPart", "UpperTorso"
+    }
+	}
