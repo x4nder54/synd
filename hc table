@@ -1,7 +1,16 @@
 getgenv().synd = {
+    Enabled = true,
     juicewlrd999 = {
         pred = 0.06,
         offset = 0.09,
-        part = "Head", -- u can change it to "HumanoidRootPart", "UpperTorso"
+        part = "Head", -- Changeable to "Head", "UpperTorso", " HumanoidRootPart"
+        HighlightEnabled = true,
+    },
+    TargetStrafe = {
+        Enabled = false,
+        StrafeSpeed = 25,
+        StrafeRadius = 7,
+        StrafeHeight = 6,
+        RandomizerMode = false
     }
-	}
+}
